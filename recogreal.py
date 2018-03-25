@@ -6,7 +6,6 @@ import numpy as np
 
 subjects= [ "","Person1","Person2"]
 
-eye_cascade=cv2.CascadeClassifier('haarcascade_eye.xml')
 def detect_face(img):
     face_cascade= cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
     
